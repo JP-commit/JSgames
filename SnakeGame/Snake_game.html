@@ -121,7 +121,7 @@
                 <option value='15'>Medium</option>
                 <option value='20'>Hard</option>
                 <option value='25'>Very Hard</option>
-                <option value='30'>Fuck No</option>
+                <option value='30'>Not for playing</option>
             </select>
             <span id='start'>START</span>
         </div> 
@@ -129,7 +129,8 @@
         <div id='arrowImages' alt='Left'>
             <img src="https://cdn0.iconfinder.com/data/icons/web-seo-and-advertising-media-1/512/218_Arrow_Arrows_Back-512.png"/ id='leftArrow'>
         </div>
-        
+
+        <script src="js/arrowKeys.js"></script>
 		<script>
 		var mouseX;
 var mouseY;
@@ -311,7 +312,7 @@ function moveAll(){
     snakeTrackHandling();
     snakeFruitHandling();
     snakeSnakeHandling();
-    //moveSnakeByArrows();
+    moveSnakeByArrows();
 }
 
 function drawAll(){
