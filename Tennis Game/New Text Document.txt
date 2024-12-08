@@ -1,0 +1,4 @@
+write in script tags
+<script> </script>
+
+console.log("your message"); --displays the message in te console
